@@ -1,0 +1,482 @@
+{
+  "weather_alerts": [
+    {
+      "id": "WA-2024-001",
+      "alert_type": "EXTREME_MONSOON",
+      "severity": "RED",
+      "title": "Extreme Monsoon Warning — Pune & Nashik Districts",
+      "message": "India Meteorological Department has issued a Red Alert. Isolated extremely heavy rainfall (≥ 204.5 mm/24h) expected over Pune, Nashik, Ahmednagar, and Satara districts in the next 48 hours. Farmers are advised to NOT irrigate standing crops. Secure farm equipment and avoid low-lying fields.",
+      "issued_by": "India Meteorological Department (IMD)",
+      "issued_at": "2024-07-14T06:00:00+05:30",
+      "valid_until": "2024-07-16T06:00:00+05:30",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "coordinates": { "lat": 18.5204, "lon": 73.8567 },
+      "current_conditions": {
+        "temp_c": 22.4,
+        "humidity_pct": 91,
+        "rainfall_mm_24h": 187.5,
+        "wind_speed_kmh": 54,
+        "wind_direction": "SW",
+        "cloud_cover_pct": 98,
+        "ndvi": 0.61,
+        "soil_moisture_pct": 84,
+        "soil_status": "critical"
+      },
+      "forecast_48h": [
+        { "date": "2024-07-14", "max_rainfall_mm": 210, "temp_c": 22, "humidity_pct": 94 },
+        { "date": "2024-07-15", "max_rainfall_mm": 195, "temp_c": 23, "humidity_pct": 89 }
+      ],
+      "crop_impact": [
+        { "crop": "Paddy", "risk": "HIGH", "advisory": "Check bunds and drainage channels immediately. Waterlogging can cause root rot within 48h." },
+        { "crop": "Soybean", "risk": "HIGH", "advisory": "Pod shattering likely. Harvest early if crop is 85%+ mature." },
+        { "crop": "Sugarcane", "risk": "MEDIUM", "advisory": "Risk of lodging due to high winds. Earth-up and tie bundles before storm hits." },
+        { "crop": "Onion", "risk": "CRITICAL", "advisory": "Fungal downy mildew will spread rapidly. Apply Metalaxyl + Mancozeb 2g/L immediately." }
+      ],
+      "do_not_irrigate": ["Paddy", "Wheat", "Cotton"],
+      "emergency_contacts": [
+        { "name": "State Agricultural Helpline", "number": "18001801551" },
+        { "name": "IMD Pune Weather Centre", "number": "02025535435" },
+        { "name": "District Disaster Management", "number": "02026123456" }
+      ]
+    },
+    {
+      "id": "WA-2024-002",
+      "alert_type": "CYCLONIC_STORM",
+      "severity": "ORANGE",
+      "title": "Cyclonic Circulation — Heavy Rain Warning Vidarbha Region",
+      "message": "A well-marked low pressure area over the Bay of Bengal has intensified into a cyclonic circulation. Heavy to very heavy rainfall (64.5–115.5 mm) expected over Nagpur, Wardha, Yavatmal, and Amravati districts over the next 72 hours. Lightning and squall (40–50 kmh) likely.",
+      "issued_by": "India Meteorological Department (IMD)",
+      "issued_at": "2024-07-13T18:00:00+05:30",
+      "valid_until": "2024-07-16T18:00:00+05:30",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "coordinates": { "lat": 21.1458, "lon": 79.0882 },
+      "current_conditions": {
+        "temp_c": 26.8,
+        "humidity_pct": 83,
+        "rainfall_mm_24h": 72.3,
+        "wind_speed_kmh": 42,
+        "wind_direction": "SE",
+        "cloud_cover_pct": 87,
+        "ndvi": 0.54,
+        "soil_moisture_pct": 71,
+        "soil_status": "good"
+      },
+      "forecast_48h": [
+        { "date": "2024-07-14", "max_rainfall_mm": 105, "temp_c": 26, "humidity_pct": 88 },
+        { "date": "2024-07-15", "max_rainfall_mm": 90, "temp_c": 27, "humidity_pct": 84 }
+      ],
+      "crop_impact": [
+        { "crop": "Cotton", "risk": "HIGH", "advisory": "Boll rot risk is high. Apply Carbendazim 0.1% as foliar spray before rainfall." },
+        { "crop": "Soybean", "risk": "MEDIUM", "advisory": "Protect from yellow mosaic virus spread by whiteflies during post-rain period." }
+      ],
+      "do_not_irrigate": ["Soybean", "Cotton"],
+      "emergency_contacts": [
+        { "name": "State Agricultural Helpline", "number": "18001801551" },
+        { "name": "IMD Nagpur", "number": "07122523510" }
+      ]
+    },
+    {
+      "id": "WA-2024-003",
+      "alert_type": "FLOOD_WATCH",
+      "severity": "RED",
+      "title": "Flash Flood Watch — Krishna & Bhima River Basins",
+      "message": "River Krishna and Bhima are flowing at 92% of their danger levels near Sangli and Solapur respectively. Flash flooding expected in low-lying agricultural areas within the next 24 hours. Farmers with fields adjacent to riverbanks must evacuate equipment and standing harvest immediately.",
+      "issued_by": "Central Water Commission & IMD",
+      "issued_at": "2024-07-14T04:30:00+05:30",
+      "valid_until": "2024-07-15T12:00:00+05:30",
+      "district": "Sangli",
+      "state": "Maharashtra",
+      "coordinates": { "lat": 16.8524, "lon": 74.5815 },
+      "current_conditions": {
+        "temp_c": 24.1,
+        "humidity_pct": 88,
+        "rainfall_mm_24h": 143.0,
+        "wind_speed_kmh": 28,
+        "wind_direction": "W",
+        "cloud_cover_pct": 95,
+        "ndvi": 0.48,
+        "soil_moisture_pct": 97,
+        "soil_status": "critical"
+      },
+      "forecast_48h": [
+        { "date": "2024-07-14", "max_rainfall_mm": 160, "temp_c": 24, "humidity_pct": 92 },
+        { "date": "2024-07-15", "max_rainfall_mm": 80, "temp_c": 25, "humidity_pct": 85 }
+      ],
+      "crop_impact": [
+        { "crop": "Sugarcane", "risk": "CRITICAL", "advisory": "Standing sugarcane in low-lying areas faces complete loss. Harvest what is possible immediately." },
+        { "crop": "Paddy", "risk": "HIGH", "advisory": "Transplanted paddy less than 3 weeks old may be washed away. Install temporary barriers." }
+      ],
+      "do_not_irrigate": ["Paddy", "Sugarcane", "Soybean", "Maize"],
+      "emergency_contacts": [
+        { "name": "State Agricultural Helpline", "number": "18001801551" },
+        { "name": "Central Water Commission Pune", "number": "02026126264" },
+        { "name": "Flood Relief Control Room", "number": "18001808080" }
+      ]
+    }
+  ],
+
+  "pest_outbreaks": [
+    {
+      "id": "PO-2024-001",
+      "pest_type": "LOCUST",
+      "species": "Desert Locust (Schistocerca gregaria)",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "title": "Desert Locust Swarm — Active Outbreak in Rajasthan & Gujarat Border",
+      "description": "A large swarm of Desert Locusts estimated at 150–200 sq km has crossed from Pakistan into Barmer, Jaisalmer, and Kutch districts. The swarm is moving in a south-easterly direction at approximately 90–150 km/day, driven by south-westerly winds. Flash gregarization of juveniles (hoppers) has been observed near Bikaner. IMD wind trajectory models suggest the swarm may reach northern Maharashtra within 5–7 days if not controlled.",
+      "detected_at": "2024-07-12T08:30:00+05:30",
+      "last_updated": "2024-07-14T07:00:00+05:30",
+      "origin": "Pakistan (Sindh Province)",
+      "current_location": {
+        "district": "Barmer",
+        "state": "Rajasthan",
+        "lat": 25.7454,
+        "lon": 71.3964
+      },
+      "affected_area_sq_km": 175,
+      "trajectory": {
+        "direction": "SE",
+        "speed_km_per_day": 120,
+        "predicted_path": [
+          { "date": "2024-07-15", "district": "Jodhpur", "state": "Rajasthan", "threat_level": "HIGH" },
+          { "date": "2024-07-16", "district": "Ajmer", "state": "Rajasthan", "threat_level": "HIGH" },
+          { "date": "2024-07-17", "district": "Kota", "state": "Rajasthan", "threat_level": "MEDIUM" },
+          { "date": "2024-07-18", "district": "Aurangabad", "state": "Maharashtra", "threat_level": "MEDIUM" },
+          { "date": "2024-07-19", "district": "Nashik", "state": "Maharashtra", "threat_level": "LOW" }
+        ]
+      },
+      "crop_damage_pct": 35,
+      "crops_at_risk": [
+        { "crop": "Wheat", "damage_pct": 40, "advisory": "Cover wheat stacks and grain storage immediately. Spray Chlorpyrifos 20EC at 1L/ha if swarm arrives." },
+        { "crop": "Maize", "damage_pct": 55, "advisory": "Standing green maize is highly attractive to locusts. Apply malathion ULV spray at recommended dose." },
+        { "crop": "Soybean", "damage_pct": 30, "advisory": "Broad-leaf soybean is vulnerable. Coordinate with district authorities for aerial spraying." },
+        { "crop": "Sugarcane", "damage_pct": 20, "advisory": "Sugarcane relatively resistant at mature stage, but young ratoon crop is at risk." }
+      ],
+      "control_operations": {
+        "aerial_spraying": true,
+        "chemical_used": "Malathion 96% ULV at 0.75 L/ha (aerial), Chlorpyrifos 20EC at 1L/ha (ground)",
+        "teams_deployed": 47,
+        "area_treated_ha": 28400,
+        "next_operation": "2024-07-14T15:00:00+05:30"
+      },
+      "farmer_advisory": [
+        "Do NOT enter fields when aerial spraying is announced — maintain 48-hour buffer period",
+        "Report locust sightings immediately to Gram Sevak or call 1800-180-1551",
+        "Use noise (drums, firecrackers, tin banging) at dawn/dusk when locusts are roosting to drive them away",
+        "Create smoke barriers on windward side of fields using dried dung, husk, or wood",
+        "All water sources must be covered before spraying operations begin",
+        "Harvest mature crops immediately if swarm approach is confirmed within 48 hours"
+      ],
+      "government_helpline": "1800-180-1551",
+      "nodal_agency": "Locust Warning Organisation (LWO), Jodhpur",
+      "compensation_scheme": "PMFBY — file e-Crop Loss in 72 hours of damage via PM Kisan app"
+    },
+    {
+      "id": "PO-2024-002",
+      "pest_type": "LOCUST",
+      "species": "Bombay Locust (Patanga succincta)",
+      "severity": "HIGH",
+      "status": "MONITORING",
+      "title": "Bombay Locust Hopper Population — Vidarbha & Marathwada Watch",
+      "description": "Hopper bands of Bombay Locust (Patanga succincta) have been spotted in Yavatmal, Nanded, and Latur districts following above-normal pre-monsoon rainfall. Populations are currently in 3rd–4th instar stage and not yet capable of flight. Ground control spraying is underway. Farmers in affected areas should monitor fields daily at sunrise.",
+      "detected_at": "2024-07-05T10:00:00+05:30",
+      "last_updated": "2024-07-14T06:00:00+05:30",
+      "origin": "Local gregarization following heavy pre-monsoon rains",
+      "current_location": {
+        "district": "Yavatmal",
+        "state": "Maharashtra",
+        "lat": 20.3888,
+        "lon": 78.1204
+      },
+      "affected_area_sq_km": 42,
+      "trajectory": {
+        "direction": "E",
+        "speed_km_per_day": 15,
+        "predicted_path": [
+          { "date": "2024-07-16", "district": "Nanded", "state": "Maharashtra", "threat_level": "MEDIUM" },
+          { "date": "2024-07-18", "district": "Latur", "state": "Maharashtra", "threat_level": "LOW" }
+        ]
+      },
+      "crop_damage_pct": 12,
+      "crops_at_risk": [
+        { "crop": "Cotton", "damage_pct": 18, "advisory": "Apply Quinalphos 25EC at 2ml/L when hoppers are seen in groups of 5+ per sq meter." },
+        { "crop": "Soybean", "damage_pct": 14, "advisory": "Spray Lambda-cyhalothrin 5EC at 0.6ml/L on field borders to create chemical barriers." }
+      ],
+      "control_operations": {
+        "aerial_spraying": false,
+        "chemical_used": "Quinalphos 25EC at 2ml/L (ground spraying)",
+        "teams_deployed": 12,
+        "area_treated_ha": 3200,
+        "next_operation": "2024-07-15T07:00:00+05:30"
+      },
+      "farmer_advisory": [
+        "Monitor field perimeters at sunrise — hoppers are slow-moving before temperatures rise",
+        "Dig trenches 30cm deep around field boundaries to trap hopper bands",
+        "Report aggregations of more than 10 hoppers per sq meter to block-level agriculture officer",
+        "Do not apply pesticides near water bodies or during rain"
+      ],
+      "government_helpline": "1800-180-1551",
+      "nodal_agency": "Maharashtra State Agriculture Department",
+      "compensation_scheme": "PMFBY — file e-Crop Loss within 72 hours via PM Kisan app"
+    }
+  ],
+
+  "market_prices": {
+    "last_updated": "2024-07-14T07:00:00+05:30",
+    "data_source": "Agmarknet — National Agriculture Market",
+    "currency": "INR",
+    "unit": "per quintal (100 kg)",
+    "crops": [
+      {
+        "crop": "Wheat",
+        "variety": "Lok-1 (HI-8498)",
+        "msp": 2275,
+        "price": 2310,
+        "trend": "up",
+        "forecast_7d": 2380,
+        "action": "hold",
+        "gain": 70,
+        "change_pct": 1.54,
+        "market_sentiment": "bullish",
+        "reason": "Export demand rising post-Russia-Ukraine corridor disruption. Buffer stocks at 5-year low.",
+        "mandis": [
+          { "name": "APMC Pune", "price": 2270, "arrivals_tonnes": 450 },
+          { "name": "Hubli APMC", "price": 2390, "arrivals_tonnes": 780 },
+          { "name": "Kalaburagi", "price": 2300, "arrivals_tonnes": 620 },
+          { "name": "Sholapur", "price": 2430, "arrivals_tonnes": 340 },
+          { "name": "Nashik", "price": 2285, "arrivals_tonnes": 510 }
+        ],
+        "price_history_7d": [
+          { "date": "2024-07-08", "price": 2240 },
+          { "date": "2024-07-09", "price": 2250 },
+          { "date": "2024-07-10", "price": 2265 },
+          { "date": "2024-07-11", "price": 2270 },
+          { "date": "2024-07-12", "price": 2290 },
+          { "date": "2024-07-13", "price": 2300 },
+          { "date": "2024-07-14", "price": 2310 }
+        ],
+        "storage_advisory": "Wheat in good condition can be stored for 2–3 months in moisture-proof sacks. Projected price ₹2,380+ by mid-August.",
+        "export_price_usd": 286
+      },
+      {
+        "crop": "Paddy",
+        "variety": "IR-64 (Swarna)",
+        "msp": 2183,
+        "price": 2180,
+        "trend": "stable",
+        "forecast_7d": 2240,
+        "action": "hold",
+        "gain": 60,
+        "change_pct": 0.0,
+        "market_sentiment": "neutral",
+        "reason": "Monsoon arrival delays in eastern India has kept paddy arrivals low. Prices expected to firm up as new crop arrives.",
+        "mandis": [
+          { "name": "APMC Pune", "price": 2140, "arrivals_tonnes": 210 },
+          { "name": "Nagpur APMC", "price": 2200, "arrivals_tonnes": 380 },
+          { "name": "Kolhapur", "price": 2175, "arrivals_tonnes": 290 },
+          { "name": "Amravati", "price": 2195, "arrivals_tonnes": 430 },
+          { "name": "Aurangabad", "price": 2160, "arrivals_tonnes": 310 }
+        ],
+        "price_history_7d": [
+          { "date": "2024-07-08", "price": 2185 },
+          { "date": "2024-07-09", "price": 2180 },
+          { "date": "2024-07-10", "price": 2182 },
+          { "date": "2024-07-11", "price": 2178 },
+          { "date": "2024-07-12", "price": 2180 },
+          { "date": "2024-07-13", "price": 2183 },
+          { "date": "2024-07-14", "price": 2180 }
+        ],
+        "storage_advisory": "Hold for 4–6 weeks. Kharif demand typically pushes prices 3–5% above MSP by September.",
+        "export_price_usd": 270
+      },
+      {
+        "crop": "Cotton",
+        "variety": "Bt Cotton (NHH-44)",
+        "msp": 6620,
+        "price": 6720,
+        "trend": "down",
+        "forecast_7d": 6500,
+        "action": "sell",
+        "gain": 0,
+        "change_pct": -2.1,
+        "market_sentiment": "bearish",
+        "reason": "Global synthetic fibre prices falling sharply. Chinese import demand has dropped 18% YoY. Sell within 48 hours.",
+        "mandis": [
+          { "name": "APMC Pune", "price": 6680, "arrivals_tonnes": 120 },
+          { "name": "Nagpur APMC", "price": 6750, "arrivals_tonnes": 890 },
+          { "name": "Yavatmal", "price": 6700, "arrivals_tonnes": 1200 },
+          { "name": "Aurangabad", "price": 6720, "arrivals_tonnes": 670 },
+          { "name": "Latur", "price": 6690, "arrivals_tonnes": 410 }
+        ],
+        "price_history_7d": [
+          { "date": "2024-07-08", "price": 6980 },
+          { "date": "2024-07-09", "price": 6900 },
+          { "date": "2024-07-10", "price": 6850 },
+          { "date": "2024-07-11", "price": 6800 },
+          { "date": "2024-07-12", "price": 6760 },
+          { "date": "2024-07-13", "price": 6740 },
+          { "date": "2024-07-14", "price": 6720 }
+        ],
+        "storage_advisory": "Do NOT store. Price is declining. Sell at current market or go to CCI procurement centre for MSP guarantee.",
+        "export_price_usd": 832
+      },
+      {
+        "crop": "Onion",
+        "variety": "Nasik Red & Bellary Red",
+        "msp": 800,
+        "price": 1500,
+        "trend": "up",
+        "forecast_7d": 1700,
+        "action": "hold",
+        "gain": 200,
+        "change_pct": 13.2,
+        "market_sentiment": "very bullish",
+        "reason": "Pre-monsoon stock depletion. Storage losses and reduced Kharif planting area driving prices up sharply. Government export ban lifted.",
+        "mandis": [
+          { "name": "Lasalgaon APMC (Asia's largest)", "price": 1520, "arrivals_tonnes": 4800 },
+          { "name": "Pimpalgaon Baswant", "price": 1490, "arrivals_tonnes": 2100 },
+          { "name": "Malegaon", "price": 1510, "arrivals_tonnes": 1800 },
+          { "name": "Nandurbar", "price": 1480, "arrivals_tonnes": 900 },
+          { "name": "Kopargaon", "price": 1500, "arrivals_tonnes": 1400 }
+        ],
+        "price_history_7d": [
+          { "date": "2024-07-08", "price": 1300 },
+          { "date": "2024-07-09", "price": 1330 },
+          { "date": "2024-07-10", "price": 1380 },
+          { "date": "2024-07-11", "price": 1420 },
+          { "date": "2024-07-12", "price": 1450 },
+          { "date": "2024-07-13", "price": 1480 },
+          { "date": "2024-07-14", "price": 1500 }
+        ],
+        "storage_advisory": "Hold in cold storage if possible. Price likely to touch ₹2,000+ by August end. Ensure proper ventilation in godowns to prevent rot.",
+        "export_price_usd": 186
+      },
+      {
+        "crop": "Tomato",
+        "variety": "Hybrid F1 (Arka Rakshak)",
+        "msp": 600,
+        "price": 820,
+        "trend": "up",
+        "forecast_7d": 1100,
+        "action": "hold",
+        "gain": 280,
+        "change_pct": 8.4,
+        "market_sentiment": "bullish",
+        "reason": "Monsoon disruption to supply chains from Himachal and Karnataka. Local Pune-belt arrivals dropped 40%. Rapid price rise expected.",
+        "mandis": [
+          { "name": "APMC Pune", "price": 840, "arrivals_tonnes": 620 },
+          { "name": "Mumbai APMC Vashi", "price": 860, "arrivals_tonnes": 1100 },
+          { "name": "Nashik APMC", "price": 810, "arrivals_tonnes": 480 },
+          { "name": "Kolhapur", "price": 800, "arrivals_tonnes": 290 },
+          { "name": "Satara", "price": 830, "arrivals_tonnes": 360 }
+        ],
+        "price_history_7d": [
+          { "date": "2024-07-08", "price": 680 },
+          { "date": "2024-07-09", "price": 710 },
+          { "date": "2024-07-10", "price": 740 },
+          { "date": "2024-07-11", "price": 770 },
+          { "date": "2024-07-12", "price": 790 },
+          { "date": "2024-07-13", "price": 800 },
+          { "date": "2024-07-14", "price": 820 }
+        ],
+        "storage_advisory": "Tomato has 3–4 day shelf life. Sell premium grade to retail. Store Grade B in cold chain @ 12–14°C for 10 more days.",
+        "export_price_usd": 102
+      },
+      {
+        "crop": "Soybean",
+        "variety": "JS-335 (Yellow)",
+        "msp": 4600,
+        "price": 4180,
+        "trend": "down",
+        "forecast_7d": 4050,
+        "action": "sell",
+        "gain": 0,
+        "change_pct": -3.1,
+        "market_sentiment": "bearish",
+        "reason": "Bumper harvest prediction for 2024 Kharif season. Import duty on edible oils reduced. Oilmeal export demand weak.",
+        "mandis": [
+          { "name": "Latur APMC", "price": 4200, "arrivals_tonnes": 2800 },
+          { "name": "Nanded", "price": 4170, "arrivals_tonnes": 1900 },
+          { "name": "Osmanabad", "price": 4160, "arrivals_tonnes": 1600 },
+          { "name": "Akola APMC", "price": 4190, "arrivals_tonnes": 3100 },
+          { "name": "Jalgaon", "price": 4175, "arrivals_tonnes": 2200 }
+        ],
+        "price_history_7d": [
+          { "date": "2024-07-08", "price": 4350 },
+          { "date": "2024-07-09", "price": 4310 },
+          { "date": "2024-07-10", "price": 4280 },
+          { "date": "2024-07-11", "price": 4250 },
+          { "date": "2024-07-12", "price": 4220 },
+          { "date": "2024-07-13", "price": 4200 },
+          { "date": "2024-07-14", "price": 4180 }
+        ],
+        "storage_advisory": "Sell now — price is below MSP and declining. Use NAFED/NCCF MSP procurement window if open in your district.",
+        "export_price_usd": 517
+      },
+      {
+        "crop": "Sugarcane",
+        "variety": "Co-86032 (CoM)",
+        "msp": 3050,
+        "price": 3150,
+        "trend": "stable",
+        "forecast_7d": 3200,
+        "action": "hold",
+        "gain": 50,
+        "change_pct": 0.0,
+        "market_sentiment": "neutral",
+        "reason": "FRP (Fair and Remunerative Price) fixed at ₹3,050. Most mills are paying SAP (State Advised Price) of ₹3,150. Payment cycle expected to improve post-season.",
+        "mandis": [
+          { "name": "Kolhapur Co-op Sugar Mill", "price": 3150, "arrivals_tonnes": 8400 },
+          { "name": "Solapur Sugar Factory", "price": 3100, "arrivals_tonnes": 6200 },
+          { "name": "Sangli DCCB", "price": 3170, "arrivals_tonnes": 5100 },
+          { "name": "Nashik Mill", "price": 3140, "arrivals_tonnes": 4800 },
+          { "name": "Aurangabad Sahkari", "price": 3120, "arrivals_tonnes": 3600 }
+        ],
+        "price_history_7d": [
+          { "date": "2024-07-08", "price": 3150 },
+          { "date": "2024-07-09", "price": 3150 },
+          { "date": "2024-07-10", "price": 3155 },
+          { "date": "2024-07-11", "price": 3150 },
+          { "date": "2024-07-12", "price": 3148 },
+          { "date": "2024-07-13", "price": 3152 },
+          { "date": "2024-07-14", "price": 3150 }
+        ],
+        "storage_advisory": "No open market storage — supply directly to registered mill. Ensure harvest after 12 months for optimal sucrose content.",
+        "export_price_usd": 390
+      },
+      {
+        "crop": "Maize",
+        "variety": "DHM-117 (Hybrid)",
+        "msp": 1870,
+        "price": 1870,
+        "trend": "up",
+        "forecast_7d": 1920,
+        "action": "hold",
+        "gain": 50,
+        "change_pct": 2.7,
+        "market_sentiment": "slightly bullish",
+        "reason": "Poultry feed demand is rising sharply post-bird-flu recovery. Ethanol blending program (EBP) driving industrial consumption of maize to record highs.",
+        "mandis": [
+          { "name": "Dharwad APMC", "price": 1880, "arrivals_tonnes": 1200 },
+          { "name": "Davangere", "price": 1890, "arrivals_tonnes": 980 },
+          { "name": "Haveri", "price": 1860, "arrivals_tonnes": 740 },
+          { "name": "Pune APMC", "price": 1870, "arrivals_tonnes": 420 },
+          { "name": "Kolhapur", "price": 1855, "arrivals_tonnes": 610 }
+        ],
+        "price_history_7d": [
+          { "date": "2024-07-08", "price": 1820 },
+          { "date": "2024-07-09", "price": 1830 },
+          { "date": "2024-07-10", "price": 1840 },
+          { "date": "2024-07-11", "price": 1850 },
+          { "date": "2024-07-12", "price": 1858 },
+          { "date": "2024-07-13", "price": 1865 },
+          { "date": "2024-07-14", "price": 1870 }
+        ],
+        "storage_advisory": "Dry to 12% moisture level before storage. Price likely to rise to ₹1,920–1,950 by August if poultry demand holds.",
+        "export_price_usd": 231
+      }
+    ]
+  }
+}
